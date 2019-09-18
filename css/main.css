@@ -4,6 +4,7 @@ html {
 
 .eng {
   font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
 }
 
 .jp {
@@ -15,25 +16,34 @@ hr {
   border-color: #e2e2e2;
 }
 
+a {
+  text-decoration: none;
+  color: #005e76;
+}
+
 .btn {
   background-color: transparent;
-  color: #000;
   border-style: none;
+  color: #000;
   text-decoration: none;
 }
 
+.btn:hover {
+  color: #005e76;
+  background-color: #ddd;
+  border-color: #000;
+}
+
 .btn-ghost {
+  text-decoration: none;
   border: 2px solid;
   border-color: #8bc9d9;
   color: #0084a6;
   color: #000;
-  text-decoration: none;
   border-radius: 3px;
 }
 
-.btn:hover {
-  background-color: #ddd;
-  border-color: #000;
+.btn-ghost:hover {
   color: #005e76;
 }
 
