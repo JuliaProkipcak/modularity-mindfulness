@@ -1,5 +1,46 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.eng {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.jp {
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+hr {
+  border-color: #e2e2e2;
+}
+
+.btn {
+  background-color: transparent;
+  color: #000;
+  border-style: none;
+  text-decoration: none;
+}
+
+.btn-ghost {
+  border: 2px solid;
+  border-color: #8bc9d9;
+  color: #0084a6;
+  color: #000;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+  border-color: #000;
+  color: #005e76;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .wrapper {
+    max-width: 38em;
+  }
+
+}
